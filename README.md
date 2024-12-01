@@ -42,12 +42,7 @@ Python notebook for the implementation of this module can be found in the file, 
  **4. Creation of web App**
  
 After training our model, the next step was to make our project available to users.For this purpose we planned to develop a web application for our model. To accomplish this we used the **Flask framework** to deploy our model. Flask is a popular Python web framework, meaning it is a thirdparty Python library used for developing web applications.Using Flask we were able to make an API which receives essay details through GUI and computes the predicted score value based on our model.The results can be shown by making a POST request . It receives JSON inputs, uses the trained model to make a prediction and returns that prediction in JSON format which can be accessed through the API endpoint.
- 
- The essential of the webpage can be found in the folder, **webapp**.
- Screenshots of the webpage can be found in the following links:
- - <img width="670" alt="webpage1 jpg" src="https://user-images.githubusercontent.com/50379093/86618508-ad529b00-bfd6-11ea-9ace-b9b58eead13e.PNG">
- - <img width="671" alt="webpage2 jpg" src="https://user-images.githubusercontent.com/50379093/86618621-de32d000-bfd6-11ea-987b-cd49cc599bc6.PNG">
- - <img width="667" alt="webpage3 jpg" src="https://user-images.githubusercontent.com/50379093/86618679-f86cae00-bfd6-11ea-805a-a4f09d78b992.PNG">
+
  
  
  ## Conclusion
